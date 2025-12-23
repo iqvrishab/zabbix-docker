@@ -1,0 +1,2485 @@
+❌ Script error: ENOENT: no such file or directory, open './license.lic'
+❌ Script error: ENOENT: no such file or directory, open './license.lic'
+❌ Script error: ENOENT: no such file or directory, open './license.lic'
+❌ Script error: ENOENT: no such file or directory, open './license.lic'
+node:internal/modules/cjs/loader:1137
+  throw err;
+  ^
+
+Error: Cannot find module '/home/vrishab/zabbix-custom-docker/licensev1.mjs'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.19.1
+❌ Script error: ENOENT: no such file or directory, open './license.lic'
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T04:33:20.423Z',
+  hmac: '445b0e86d5d671770fe8f2013dd0cecb8370585469579f26f16736ec124225e7',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T04:33:20.423Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+❌ Failed to fetch Zabbix data: request to http://192.168.1.129:8080/api_jsonrpc.php failed, reason: connect ECONNREFUSED 192.168.1.129:8080
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T04:33:20.423Z',
+  hmac: '445b0e86d5d671770fe8f2013dd0cecb8370585469579f26f16736ec124225e7',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T04:33:20.423Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+❌ Failed to fetch Zabbix data: request to http://192.168.1.129:8080/api_jsonrpc.php failed, reason: connect ECONNREFUSED 192.168.1.129:8080
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T04:33:20.423Z',
+  hmac: '445b0e86d5d671770fe8f2013dd0cecb8370585469579f26f16736ec124225e7',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T04:33:20.423Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+❌ Failed to fetch Zabbix data: request to http://192.168.1.129:8080/api_jsonrpc.php failed, reason: connect ECONNREFUSED 192.168.1.129:8080
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T04:33:20.423Z',
+  hmac: '445b0e86d5d671770fe8f2013dd0cecb8370585469579f26f16736ec124225e7',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T04:33:20.423Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/3bac89564c93abf0023864ac78ab9c72 failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f002:2aa8:b4ba:ba18:6fd3:443
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 400
+🔍 API response: { valid: false, message: 'License is inactive' }
+❌ License invalid or expired: License is inactive
+✅ MongoDB: existing document updated
+✅ Zabbix container stopped.
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 400
+🔍 API response: { valid: false, message: 'License is inactive' }
+❌ License invalid or expired: License is inactive
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 400
+🔍 API response: { valid: false, message: 'License is inactive' }
+❌ License invalid or expired: License is inactive
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/3bac89564c93abf0023864ac78ab9c72 failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f002:2aa8:b4ba:ba18:6fd3:443
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+✅ Zabbix container started.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 3bac89564c93abf0023864ac78ab9c72
+🔍 Instance ID: a1f8c8ee0c5130ebbc0795a1ac3c03cb
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovatest',
+  expiryDate: '2026-11-13T00:00:00.000Z',
+  hmac: '349b5cf14bdf86f8b39700724d2ad418e15934fa0c50de9f4c76c6ceb5e790d2',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'a1f8c8ee0c5130ebbc0795a1ac3c03cb'
+}
+✅ License is valid until 2026-11-13T00:00:00.000Z
+ℹ️  License type: N/A
+👤 Client: ovatest (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 8ded97af0758c12543905b631bee4afa
+🔍 Instance ID: 41fac5684797976f57f8dda6f1f5547b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'testing',
+  expiryDate: '2030-11-10T06:41:04.656Z',
+  hmac: 'dbeb3513b18bcd1c8d7ed7383be7944caa8eda6ebb0585134a377b98613f83a4',
+  email: 'vrishab@gmail.com',
+  instanceId: '41fac5684797976f57f8dda6f1f5547b'
+}
+✅ License is valid until 2030-11-10T06:41:04.656Z
+ℹ️  License type: N/A
+👤 Client: testing (vrishab@gmail.com)
+ℹ️  Zabbix container already running.
+✅ MongoDB: new document created with _id undefined
+🔍 License key: 8ded97af0758c12543905b631bee4afa
+🔍 Instance ID: 41fac5684797976f57f8dda6f1f5547b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'testing',
+  expiryDate: '2030-11-10T06:41:04.656Z',
+  hmac: 'dbeb3513b18bcd1c8d7ed7383be7944caa8eda6ebb0585134a377b98613f83a4',
+  email: 'vrishab@gmail.com',
+  instanceId: '41fac5684797976f57f8dda6f1f5547b'
+}
+✅ License is valid until 2030-11-10T06:41:04.656Z
+ℹ️  License type: N/A
+👤 Client: testing (vrishab@gmail.com)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+❌ Script error: Cannot read properties of undefined (reading 'trim')
+❌ Script error: Cannot read properties of undefined (reading 'trim')
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+🔍 License key: 6b65a6c2a48165c2084adf10e84004e7
+🔍 Instance ID: 93787360fc4dea8a0cd41cf3db220fbd
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovafinaltest',
+  expiryDate: '2026-11-13T08:39:13.724Z',
+  hmac: '7546ef796887c86c53f770e4349ea976f3d829cf99d39a1fa00e452d763354d7',
+  email: 'vrishab@gmail.com',
+  instanceId: '93787360fc4dea8a0cd41cf3db220fbd'
+}
+✅ License is valid until 2026-11-13T08:39:13.724Z
+ℹ️  License type: N/A
+👤 Client: ovafinaltest (vrishab@gmail.com)
+✅ Zabbix container started.
+✅ MongoDB: existing document updated
+❌ License file is empty or invalid.
+✅ Zabbix container stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/098765432123edfghjkl;/.m failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f002:4e12:126a:ec54:7b6a:443
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/098765432123edfghjkl;/.m failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f003:8e33:8c00:8e58:a879:443
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+🔍 License key: 098765432123edfghjkl;/.m
+🔍 Instance ID: oiuytr123e4567890lkmjnhgfd
+❌ Script error: Unexpected token < in JSON at position 0
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+🔍 License key: 6b65a6c2a48165c2084adf10e84004e7
+🔍 Instance ID: 93787360fc4dea8a0cd41cf3db220fbd
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovafinaltest',
+  expiryDate: '2026-11-13T08:39:13.724Z',
+  hmac: '7546ef796887c86c53f770e4349ea976f3d829cf99d39a1fa00e452d763354d7',
+  email: 'vrishab@gmail.com',
+  instanceId: '93787360fc4dea8a0cd41cf3db220fbd'
+}
+✅ License is valid until 2026-11-13T08:39:13.724Z
+ℹ️  License type: N/A
+👤 Client: ovafinaltest (vrishab@gmail.com)
+✅ Zabbix container started.
+✅ MongoDB: existing document updated
+❌ License file is empty or invalid.
+✅ Zabbix container stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+🔍 License key: 6b65a6c2a48165c2084adf10e84004e7
+🔍 Instance ID: 93787360fc4dea8a0cd41cf3db220fbd
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovafinaltest',
+  expiryDate: '2026-11-13T08:39:13.724Z',
+  hmac: '7546ef796887c86c53f770e4349ea976f3d829cf99d39a1fa00e452d763354d7',
+  email: 'vrishab@gmail.com',
+  instanceId: '93787360fc4dea8a0cd41cf3db220fbd'
+}
+✅ License is valid until 2026-11-13T08:39:13.724Z
+ℹ️  License type: N/A
+👤 Client: ovafinaltest (vrishab@gmail.com)
+✅ Zabbix container started.
+✅ MongoDB: existing document updated
+❌ License file is empty or invalid.
+✅ Zabbix container stopped.
+🔍 License key: 6b65a6c2a48165c2084adf10e84004e7
+🔍 Instance ID: 93787360fc4dea8a0cd41cf3db220fbd
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'ovafinaltest',
+  expiryDate: '2026-11-13T08:39:13.724Z',
+  hmac: '7546ef796887c86c53f770e4349ea976f3d829cf99d39a1fa00e452d763354d7',
+  email: 'vrishab@gmail.com',
+  instanceId: '93787360fc4dea8a0cd41cf3db220fbd'
+}
+✅ License is valid until 2026-11-13T08:39:13.724Z
+ℹ️  License type: N/A
+👤 Client: ovafinaltest (vrishab@gmail.com)
+✅ Zabbix container started.
+✅ MongoDB: existing document updated
+❌ License file is empty or invalid.
+✅ Zabbix container stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: new document created with _id undefined
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/qwer2t7890-4=43985 failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f001:f2f:8d4c:818d:f31f:443
+ℹ️  Zabbix container already stopped.
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/qwer2t7890-4=43985 failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f003:8e33:8c00:8e58:a879:443
+ℹ️  Zabbix container already stopped.
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: qwer2t7890-4=43985
+🔍 Instance ID: 2345678y9hu389u892e389
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+✅ MongoDB: existing document updated
+🔍 License key: 920dd3648a4c95ccd4fc1a9eae7c9f03
+🔍 Instance ID: ecaa2ce1578ceafd55d3087b0d9bcc9b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'Polymed',
+  expiryDate: '2025-12-20T04:55:33.529Z',
+  hmac: 'ba2636d7a502deccfb45c48da78131042038f62b67ba275debf83a26a874a8b6',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'ecaa2ce1578ceafd55d3087b0d9bcc9b'
+}
+✅ License is valid until 2025-12-20T04:55:33.529Z
+ℹ️  License type: N/A
+👤 Client: Polymed (vrishab.rayu@identiqa.tech)
+✅ Zabbix container started.
+✅ MongoDB: new document created with _id undefined
+🔍 License key: 920dd3648a4c95ccd4fc1a9eae7c9f03
+🔍 Instance ID: ecaa2ce1578ceafd55d3087b0d9bcc9b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'Polymed',
+  expiryDate: '2025-12-20T04:55:33.529Z',
+  hmac: 'ba2636d7a502deccfb45c48da78131042038f62b67ba275debf83a26a874a8b6',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'ecaa2ce1578ceafd55d3087b0d9bcc9b'
+}
+✅ License is valid until 2025-12-20T04:55:33.529Z
+ℹ️  License type: N/A
+👤 Client: Polymed (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 920dd3648a4c95ccd4fc1a9eae7c9f03
+🔍 Instance ID: ecaa2ce1578ceafd55d3087b0d9bcc9b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'Polymed',
+  expiryDate: '2025-12-20T04:55:33.529Z',
+  hmac: 'ba2636d7a502deccfb45c48da78131042038f62b67ba275debf83a26a874a8b6',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'ecaa2ce1578ceafd55d3087b0d9bcc9b'
+}
+✅ License is valid until 2025-12-20T04:55:33.529Z
+ℹ️  License type: N/A
+👤 Client: Polymed (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 920dd3648a4c95ccd4fc1a9eae7c9f03
+🔍 Instance ID: ecaa2ce1578ceafd55d3087b0d9bcc9b
+🔍 HTTP status: 200
+🔍 API response: {
+  valid: true,
+  clientId: 'Polymed',
+  expiryDate: '2025-12-20T04:55:33.529Z',
+  hmac: 'ba2636d7a502deccfb45c48da78131042038f62b67ba275debf83a26a874a8b6',
+  email: 'vrishab.rayu@identiqa.tech',
+  instanceId: 'ecaa2ce1578ceafd55d3087b0d9bcc9b'
+}
+✅ License is valid until 2025-12-20T04:55:33.529Z
+ℹ️  License type: N/A
+👤 Client: Polymed (vrishab.rayu@identiqa.tech)
+ℹ️  Zabbix container already running.
+✅ MongoDB: existing document updated
+🔍 License key: 8e5e522e2ded64cae85d524820ca59cc
+🔍 Instance ID: c0f0476fdac8d5a38b319cdaec0fb2d6
+🔍 HTTP status: 400
+🔍 API response: { valid: false, message: 'License is inactive' }
+❌ License invalid or expired: License is inactive
+✅ Zabbix container stopped.
+🔍 License key: 8e5e522e2ded64cae85d524820ca59cc
+🔍 Instance ID: c0f0476fdac8d5a38b319cdaec0fb2d6
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/8e5e522e2ded64cae85d524820ca59cc failed, reason: connect EHOSTUNREACH 2406:da1a:5a5:f002:427c:616b:6caf:fb7f:443
+ℹ️  Zabbix container already stopped.
+🔍 License key: 8e5e522e2ded64cae85d524820ca59cc
+🔍 Instance ID: c0f0476fdac8d5a38b319cdaec0fb2d6
+🔍 HTTP status: 400
+🔍 API response: { valid: false, message: 'License is inactive' }
+❌ License invalid or expired: License is inactive
+✅ Zabbix container stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+🔍 License key: cdfsvsfds2345dfsv345vds453
+🔍 Instance ID: vdsxrewfcdsvf534fds534gdf
+❌ Script error: request to https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license/cdfsvsfds2345dfsv345vds453 failed, reason: getaddrinfo EAI_AGAIN f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws
+ℹ️  Zabbix container already stopped.
+🔍 License key: testetstetstetseteste23
+🔍 Instance ID: esdfguyedsuygew323223
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+🔍 License key: testetstetstetseteste23
+🔍 Instance ID: esdfguyedsuygew323223
+🔍 HTTP status: 404
+🔍 API response: { valid: false, message: 'License not found' }
+❌ License invalid or expired: License not found
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
+❌ License file is empty or invalid.
+ℹ️  Zabbix container already stopped.
