@@ -5,8 +5,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { createProxyMiddleware } from "http-proxy-middleware";
 
-const LICENSE_PATH = "./license.lic";
-const LICENSE_API_URL =
+const LICENSE_PATH = "/app/license.lic";
+const LICENSE_API =
   "https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license";
 
 const ZABBIX_URL = "http://zabbix-web:8080";
@@ -14,44 +14,58 @@ const ZABBIX_URL = "http://zabbix-web:8080";
 const app = express();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// LICENSE MIDDLEWARE
+/* =====================================================
+   STATIC FILES FOR LICENSE PAGE
+   ===================================================== */
+app.use("/static", express.static(path.join(__dirname, "static")));
+
+/* =====================================================
+   LICENSE GUARD (ABSOLUTE)
+   ===================================================== */
 app.use(async (req, res, next) => {
   try {
-    const licenseFile = (await fs.readFile(LICENSE_PATH, "utf-8"))
-      .trim()
-      .split("\n");
-
-    const licenseKey = licenseFile[0]?.trim();
-    const instanceId = licenseFile[1]?.trim();
+    // Read license
+    const licenseText = await fs.readFile(LICENSE_PATH, "utf-8");
+    const [licenseKey, instanceId] = licenseText.trim().split("\n");
 
     if (!licenseKey || !instanceId) {
-      return res.sendFile("custom.html", { root: __dirname });
+      return res.status(403).sendFile("custom.html", { root: __dirname });
     }
 
-    const response = await fetch(`${LICENSE_API_URL}/${licenseKey}`);
-    const body = await response.json();
+    const r = await fetch(`${LICENSE_API}/${licenseKey}`);
+    const contentType = r.headers.get("content-type") || "";
+    const bodyText = await r.text();
 
-    if (!body.valid) {
-      return res.sendFile("custom.html", { root: __dirname });
+    if (!contentType.includes("application/json")) {
+      return res.status(403).sendFile("custom.html", { root: __dirname });
     }
 
+    const data = JSON.parse(bodyText);
+
+    if (!r.ok || !data.valid) {
+      return res.status(403).sendFile("custom.html", { root: __dirname });
+    }
+
+    // ✅ License valid → allow proxy
     next();
-  } catch {
-    return res.sendFile("custom.html", { root: __dirname });
+  } catch (err) {
+    return res.status(403).sendFile("custom.html", { root: __dirname });
   }
 });
 
-// PROXY TO ZABBIX
+/* =====================================================
+   PROXY TO ZABBIX (ONLY IF LICENSE VALID)
+   ===================================================== */
 app.use(
   "/",
   createProxyMiddleware({
     target: ZABBIX_URL,
     changeOrigin: true,
-    ws: true
+    ws: true,
+    xfwd: true
   })
 );
 
 app.listen(3333, () => {
   console.log("✅ License proxy running on port 3333");
 });
-
