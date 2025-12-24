@@ -24,10 +24,6 @@ services:
       MYSQL_USER: zabbix
       MYSQL_PASSWORD: iqlab@2025
       TZ: Asia/Kolkata
-      ZBX_STARTAGENTS: 5
-      ZBX_ENABLE_SNMP_TRAPS: "true"
-      ZBX_STARTSNMPTRAPPER: "1"
-      ZBX_SNMPTRAPPERFILE: "/var/lib/zabbix/snmptraps/snmptraps.log"
     ports:
       - "10051:10051"
     volumes:
@@ -46,18 +42,13 @@ services:
       MYSQL_USER: zabbix
       MYSQL_PASSWORD: iqlab@2025
       ZBX_SERVER_HOST: zabbix-server
-      PHP_TZ: Asia/Kolkata
       ZBX_SERVER_NAME: "Identiqa NMS"
-    # internal port only, do NOT expose directly
+      PHP_TZ: Asia/Kolkata
     expose:
       - "8080"
     volumes:
-      - ./zabbix-custom-ui/general.login.php:/usr/share/zabbix/include/views/general.login.php:ro
-      - ./zabbix-custom-ui/blue-theme.css:/usr/share/zabbix/assets/styles/blue-theme.css
       - ./zabbix-custom-ui/favicon.ico:/usr/share/zabbix/favicon.ico
       - ./zabbix-custom-ui/brand.conf.php:/usr/share/zabbix/local/conf/brand.conf.php:ro
-      - ./zabbix-custom-ui/CBrandHelper.php:/usr/share/zabbix/include/classes/helpers/CBrandHelper.php:ro
-      - ./zabbix-custom-ui/CMenuHelper.php:/usr/share/zabbix/include/classes/helpers/CMenuHelper.php:ro
       - ./zabbix-custom-ui/rebranding/identiqa.png:/usr/share/zabbix/rebranding/identiqa.png:ro
     restart: unless-stopped
 
@@ -80,7 +71,6 @@ services:
       - "162:162/udp"
     volumes:
       - zabbix-snmptraps-data:/var/lib/zabbix/snmptraps
-      - ./zabbix-custom-ui/snmptrapd.conf:/etc/snmp/snmptrapd.conf:ro
     restart: unless-stopped
 
   license-agent:
@@ -102,7 +92,7 @@ services:
       - zabbix-web
       - license-agent
     ports:
-      - "8080:3333"   # external access through proxy
+      - "8080:3333"
     volumes:
       - ./license/license.lic:/app/license.lic:ro
       - ./license-proxy/custom.html:/app/custom.html:ro
@@ -111,4 +101,3 @@ services:
 volumes:
   mysql-data:
   zabbix-snmptraps-data:
-
