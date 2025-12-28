@@ -10,37 +10,39 @@ import { exec } from "child_process";
 
 const LICENSE_PATH = "/app/license.lic";
 
+/**
+ * ⚠️ IMPORTANT
+ * This MUST match the VM script
+ * VM uses: /backend_api/check-license/usage
+ */
 const LICENSE_API_BASE =
-  "https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api";
+  "https://f3tigq2rmb74psnp6nafqqg54i0kysrw.lambda-url.ap-south-1.on.aws/backend_api/check-license";
 
 const ZABBIX_CONTAINER = "zabbix-server";
+
+// Zabbix runs inside Docker network
 const ZABBIX_URL = "http://zabbix-web:8080";
 const ZABBIX_USER = "Admin";
 const ZABBIX_PASSWORD = "zabbix";
 
 const CHECK_INTERVAL_MS = 10 * 60 * 1000; // 10 minutes
 const STARTUP_DELAY_MS = 60 * 1000;       // 1 minute
-const RETRIES = 5;
-const RETRY_DELAY = 15000;
 
 /* =====================================================
    HELPERS
    ===================================================== */
 
-const sleep = ms => new Promise(r => setTimeout(r, ms));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function docker(cmd) {
+  return new Promise((resolve) => {
+    exec(cmd, (_, stdout) => resolve(stdout?.trim() || null));
+  });
+}
 
 /* =====================================================
    DOCKER CONTROL
    ===================================================== */
-
-function docker(cmd) {
-  return new Promise(resolve => {
-    exec(cmd, (err, stdout) => {
-      if (err) return resolve(null);
-      resolve(stdout.trim());
-    });
-  });
-}
 
 async function controlZabbix(shouldRun) {
   const running = await docker(
@@ -50,88 +52,81 @@ async function controlZabbix(shouldRun) {
   if (shouldRun && running === ZABBIX_CONTAINER) return;
   if (!shouldRun && running !== ZABBIX_CONTAINER) return;
 
-  console.log(`🛑 Zabbix ${shouldRun ? "starting" : "stopping"}...`);
   await docker(`docker ${shouldRun ? "start" : "stop"} ${ZABBIX_CONTAINER}`);
 }
 
 /* =====================================================
-   ZABBIX API (SAFE)
+   ZABBIX DATA (VM LOGIC – STABLE)
    ===================================================== */
 
 async function fetchZabbixData() {
-  for (let i = 1; i <= RETRIES; i++) {
-    try {
-      console.log(`🔄 Fetching Zabbix data (attempt ${i}/${RETRIES})`);
+  try {
+    // 1) Login
+    const loginRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        method: "user.login",
+        params: { username: ZABBIX_USER, password: ZABBIX_PASSWORD },
+        id: 1
+      })
+    });
 
-      // LOGIN
-      const loginRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          jsonrpc: "2.0",
-          method: "user.login",
-          params: { username: ZABBIX_USER, password: ZABBIX_PASSWORD },
-          id: 1
-        })
-      });
-
-      const loginText = await loginRes.text();
-      const login = JSON.parse(loginText);
-      if (login.error) throw new Error("Login failed");
-
-      const token = login.result;
-
-      // VERSION
-      const versionRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          jsonrpc: "2.0",
-          method: "apiinfo.version",
-          params: {},
-          id: 2
-        })
-      });
-
-      const version = JSON.parse(await versionRes.text());
-
-      // HOST COUNT
-      const hostsRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}`
-        },
-        body: JSON.stringify({
-          jsonrpc: "2.0",
-          method: "host.get",
-          params: { output: ["hostid"] },
-          id: 3
-        })
-      });
-
-      const hosts = JSON.parse(await hostsRes.text());
-      if (hosts.error) throw new Error("host.get failed");
-
-      return {
-        zabbixVersion: version.result,
-        totalHosts: hosts.result.length
-      };
-
-    } catch (err) {
-      console.warn(`⚠️ Zabbix not ready: ${err.message}`);
-      if (i < RETRIES) await sleep(RETRY_DELAY);
+    const loginJson = await loginRes.json();
+    if (loginJson.error) {
+      console.error("❌ Zabbix login failed:", loginJson.error);
+      return { zabbixVersion: "unknown", totalHosts: 0 };
     }
-  }
 
-  return {
-    zabbixVersion: "unknown",
-    totalHosts: 0
-  };
+    const authToken = loginJson.result;
+
+    // 2) Version (no auth needed in Zabbix 7)
+    const versionRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        method: "apiinfo.version",
+        params: {},
+        id: 2
+      })
+    });
+
+    const versionJson = await versionRes.json();
+    const zabbixVersion = versionJson.result || "unknown";
+
+    // 3) Host count (Bearer token for Zabbix 7)
+    const hostsRes = await fetch(`${ZABBIX_URL}/api_jsonrpc.php`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${authToken}`
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        method: "host.get",
+        params: { output: ["hostid"] },
+        id: 3
+      })
+    });
+
+    const hostsJson = await hostsRes.json();
+    const hosts = Array.isArray(hostsJson.result) ? hostsJson.result : [];
+
+    return {
+      zabbixVersion,
+      totalHosts: hosts.length
+    };
+
+  } catch (err) {
+    console.error("❌ Failed to fetch Zabbix data:", err.message || err);
+    return { zabbixVersion: "unknown", totalHosts: 0 };
+  }
 }
 
 /* =====================================================
-   LICENSE CHECK (FIXED)
+   LICENSE CHECK
    ===================================================== */
 
 async function checkLicense() {
@@ -145,32 +140,16 @@ async function checkLicense() {
     return null;
   }
 
-  // 🔒 CRITICAL FIX
-  if (!content) {
-    console.error("❌ license.lic is empty");
-    await controlZabbix(false);
-    return null;
-  }
-
   const [licenseKey, instanceId] = content.split("\n");
 
   if (!licenseKey || !instanceId) {
-    console.error("❌ license.lic format invalid");
+    console.error("❌ license.lic invalid");
     await controlZabbix(false);
     return null;
   }
 
-  let res, text, data;
-
-  try {
-    res = await fetch(`${LICENSE_API_BASE}/check-license/${licenseKey}`);
-    text = await res.text();
-    data = JSON.parse(text);
-  } catch (err) {
-    console.error("❌ License API error or non-JSON response");
-    await controlZabbix(false);
-    return null;
-  }
+  const res = await fetch(`${LICENSE_API_BASE}/${licenseKey}`);
+  const data = await res.json();
 
   if (!res.ok || !data.valid) {
     console.error("❌ License invalid or expired");
@@ -180,11 +159,7 @@ async function checkLicense() {
 
   await controlZabbix(true);
 
-  return {
-    licenseKey,
-    instanceId,
-    expiry: data.expiryDate
-  };
+  return { licenseKey, instanceId };
 }
 
 /* =====================================================
@@ -192,30 +167,34 @@ async function checkLicense() {
    ===================================================== */
 
 (async function main() {
-  console.log("🚀 License agent started (10-minute check interval)");
+  console.log("🚀 License agent started (Docker / VM logic)");
   await sleep(STARTUP_DELAY_MS);
 
   while (true) {
     const lic = await checkLicense();
-    if (!lic) {
-      console.error("❌ License check failed. Agent exiting.");
-      process.exit(1);
-    }
+    if (!lic) process.exit(1);
 
     const usage = await fetchZabbixData();
 
     console.log(`✅ Zabbix Version: ${usage.zabbixVersion}`);
     console.log(`✅ Total Hosts: ${usage.totalHosts}`);
 
-    try {
-      await fetch(`${LICENSE_API_BASE}/usage`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...lic, ...usage })
-      });
+    // 🔥 THIS IS THE CRITICAL FIX 🔥
+    const res = await fetch(`${LICENSE_API_BASE}/usage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        licenseKey: lic.licenseKey,
+        instanceId: lic.instanceId,
+        zabbixVersion: usage.zabbixVersion,
+        totalHosts: usage.totalHosts
+      })
+    });
+
+    if (!res.ok) {
+      console.error("❌ Failed to push usage data:", res.status);
+    } else {
       console.log("✅ Usage data pushed");
-    } catch {
-      console.warn("⚠️ Failed to push usage data");
     }
 
     await sleep(CHECK_INTERVAL_MS);
